@@ -1,0 +1,12 @@
+/* TEAM */
+	
+	Web designer: Alan Pruitt
+	Twitter: @westernazedd
+	From:Yuma, Arizona, United States
+		
+
+/* SITE */
+	Last update:2020/08/03
+	Language: English
+	Doctype: HTML5
+	IDE: VSC, CCS3, JS, Scrivener, Sublime Text, W3Schools
