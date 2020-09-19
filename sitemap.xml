@@ -1,9 +1,72 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--
- created with Free Online Sitemap Generator www.xml-sitemaps.com 
--->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-<loc>https://www.waedd.org/</loc>
-<lastmod>2020-08-03T21:39:25+00:00</lastmod>
+  <loc>https://www.waedd.org/</loc>
+  <lastmod>2020-09-18T16:25:48+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
+<url>
+  <loc>https://www.waedd.org/index.html</loc>
+  <lastmod>2020-09-18T16:25:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/about.html</loc>
+  <lastmod>2020-09-17T22:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/board.html</loc>
+  <lastmod>2020-09-17T22:16:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/ceds.html</loc>
+  <lastmod>2020-09-18T16:47:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/contact.html</loc>
+  <lastmod>2020-09-17T22:17:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/distress.html</loc>
+  <lastmod>2020-09-17T22:23:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/files.html</loc>
+  <lastmod>2020-09-17T22:17:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/partners.html</loc>
+  <lastmod>2020-09-17T22:18:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/sitemap.html</loc>
+  <lastmod>2020-09-17T22:18:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/ceds1.html</loc>
+  <lastmod>2020-09-18T15:37:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/ceds2.html</loc>
+  <lastmod>2020-09-18T16:31:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
