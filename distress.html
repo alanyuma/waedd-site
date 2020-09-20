@@ -1,176 +1,209 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta content="IE=edge"
-        http-equiv="X-UA-Compatible">
-  <title>StatsAmerica Distress Criteria Statistical Report</title>
-  <link href="minimal-table.css"
+<title>StatsAmerica Distress Criteria Statistical Report</title>
+<link href="minimal-table.css"
         rel="stylesheet"
         type="text/css">
-  <meta content="WAEDD uses StatsAmerica data tools to benchmark economic distress and quickly calculate whether our region may meet grant thresholds for unemployment and income."
-        name="description">
-  <meta content="Alan Pruitt, @westernazedd"
-        name="author">
-  <meta content="Western Arizona Economic Development District, Inc."
-        name="copyright">
-  <meta content="index,follow"
-        name="robots">
-  <meta content="https://www.waedd.org/distress.html"
-        name="url">
-  <meta content="UA-41633601-1"
-        name="google-analytics">
-  <meta content="Global"
-        name="distribution">
-  <link href="img/favicon/waedd-favicon.png"
-        rel="icon"
-        type="img/favicon">
-  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        name="viewport">
+<meta charset="utf-8">
+<meta content="IE=edge"
+  http-equiv="X-UA-Compatible">
+<meta content="WAEDD uses StatsAmerica data tools to benchmark economic distress and quickly calculate whether our region may meet grant thresholds for unemployment and income."
+  name="description">
+<meta content="Alan Pruitt, @westernazedd"
+  name="author">
+<meta content="Western Arizona Economic Development District, Inc."
+  name="copyright">
+<meta content="index,follow"
+  name="robots">
+<meta content="https://www.waedd.org/distress.html"
+  name="url">
+<meta content="UA-41633601-1"
+  name="google-analytics">
+<meta content="Global"
+  name="distribution">
+<link href="img/favicon/waedd-favicon.png"
+  rel="icon"
+  type="img/favicon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="apple-touch-icon" sizes="60x60" href="somedir/apple-touch-icon-ipad-76x76.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
-    address { 
+    address {
       display: block;
       font-style: italic;
       margin-left: 10px;
+    }
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+    @media (min-width: 575px) {
+    article {
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
         }
-        tbody {
-      font-size: 95%;
-      font-style: italic;
+    }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: blue;
+        color: white;
+        text-align: center;
+    }
+    p + p {
+        margin-top: 8px;
     }
     th {
       text-align:  left;
     }
 
     tfoot {
-      font-weight: bold;
-    }
+        font-weight: bold;
+        }
 
     caption {
-      text-align:  left;;
+        text-align:  left;;
     }
 
     td, th {
-  border: 1px solid #dddddd7a;
-  text-align: left;
-  padding: 8px;
-  }
+        border: 1px solid #dddddd7a;
+        text-align: left;
+        padding: 8px;
+    }
 
-  tr:nth-child(even) {
-  background-color:  #dddddd;
-  }
-  </style>
+    tr:nth-child(even) {
+        background-color:  #dddddd;
+    }
+</style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand"
-         href="index.html">Menu</a>
-    <div class="collapse navbar-collapse"
-         id="navbarNavAltMarkup">
-      <div class="navbar-nav"></div><a class="nav-item nav-link active"
-           href="index.html">Home <span class="sr-only">(current)</span></a> <a class="nav-item nav-link"
-           href="about.html">About</a> <a class="nav-item nav-link"
-           href="board.html">Board</a> <a class="nav-item nav-link"
-           href="ceds.html">CEDS</a> <a class="nav-item nav-link"
-           href="contact.html">Contact</a> <a class="nav-item nav-link"
-           href="distress.html">Distress</a> <a class="nav-item nav-link"
-           href="files.html">Files</a> <a class="nav-item nav-link"
-           href="partners.html">Partners</a>
-    </div>
-  </nav>
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container"><img alt="western arizona economic development district logo"
-         class="img-fluid"
-         src="img/webp/waedd-logo.webp"></div>
-  </div>
-  <link crossorigin="anonymous"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        rel="stylesheet">
-  <script crossorigin="anonymous"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> 
-  <script crossorigin="anonymous"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script> 
-  <script crossorigin="anonymous"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
-    <h1>Regional Economic Distress Criteria <small>Primary Elements</small></h1>
-    <h5><a href="https://twitter.com/statsamerica">&commat;StatsAmerica</a> uses data tools to benchmark economic distress and quickly calculate whether our region may meet grant thresholds for unemployment and income&period;</h5>
-    <p>Reference Date: 07&sol;2020 &lpar;All data elements refer to this date or earlier&rpar;</p>
-    <p>Region Consists of&colon; La Paz Co&period; AZ&comma; Mohave Co&period; AZ&comma; Yuma Co&period; AZ</p>
-    <p>Report Date: 9&sol;13&sol;2020</p>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" aria-label="menu" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    <class class="navbar-brand" href="#">Menu </class>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="board.html">Board</a></li>
+        <li><a href="ceds.html">CEDS</a></li>
+
+        <!--<li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">CEDS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">CEDS 1.0</a></li>
+            <li><a href="#">CEDS 2.0</a></li>
+            <li><a href="#">CEDS 3.0</a></li>
+            <li><a href="#">CEDS 4.0</a></li>
+            <li><a href="#">CEDS 5.0</a></li>
+            <li><a href="#">CEDS 6.0</a></li>
+          </ul>
+        </li>-->
+
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="distress.html">Distress</a></li>
+        <li><a href="files.html">Files</a></li>
+        <li><a href="partners.html">Partners</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<img src="img/webp/waedd-logo.webp" alt="western arizona economic development district logo" class="responsive" width="600" height="400">
+<div class="container-fluid">
+  <article role="main">
+    <h1>Regional Economic Distress Criteria</h1>
+    
+    <h5><a href="https://twitter.com/statsamerica">@StatsAmerica</a> uses data tools to benchmark economic distress and quickly calculate whether our region may meet grant thresholds for unemployment and income.</h5>
+   
+    <p>
+        Reference Date: 07/2020 (All data elements refer to this date or earlier)
+    </p>
+    <p>
+        Region Consists of: La Paz Co. AZ, Mohave Co. AZ, Yuma Co. AZ</p>
+    <p>
+        Report Date: 9/13/2020
+    </p>
     <table>
-      <tr>
-        <td>&nbsp;</td>
-        <th scope="col">Region</th>
-        <th scope="col">AZ</th>
-        <th scope="col">US</th>
-        <th scope="col">Threshold Calculations</th>
-      </tr>
-      <tr>
-        <th scope="row">24&#45;month Average Unemployment Rate &lpar;BLS&rpar; period ending July 2020</th>
-        <td>12.25&percnt;</td>
-        <td>5.76&percnt;</td>
-        <td>5.12&percnt;</td>
-        <td>7.1&percnt;</td>
-      </tr>
-      <tr>
-        <th scope="row">2018 Per Capita Money Income &lpar;5&#45;year ACS&rpar;</th>
-        <td>&dollar;22,941</td>
-        <td>&dollar;29,265</td>
-        <td>&dollar;32,621</td>
-        <td>70.33&percnt;</td>
-      </tr>
-      <tr>
-        <th scope="row">2018 Per Capita Personal Income &lpar;BEA&rpar;</th>
-        <td>&dollar;34,257</td>
-        <td>&dollar;44,329</td>
-        <td>&dollar;54,446</td>
-        <td>62.92&percnt;</td>
-      </tr>
-    </table>
-    <hr>
-    <br>
-    <div class="container-fluid"></div>
-    <h3>La Paz County Economic Distress Criteria <small>Primary Elements</small></h3>
-    <p>Report Date&colon; 9&sol;13&sol;2020</p>
-    <table>
-      <tr>
-        <td>&nbsp;</td>
-        <th scope="col">La Paz County</th>
-        <th scope="col">AZ</th>
-        <th scope="col">US</th>
-        <th scope="col">Threshold Calculations</th>
-      </tr>
-      <tr>
-        <th scope="row">24&#45;month Average Unemployment Rate &lpar;BLS&rpar; period ending July 2020</th>
-        <td>6.26&percnt;</td>
-        <td>5.76&percnt;</td>
-        <td>5.12&percnt;</td>
-        <td>1.14&percnt;</td>
-      </tr>
-      <tr>
-        <th scope="row">2018 Per Capita Money Income &lpar;5&#45;year ACS&rpar;</th>
-        <td>&dollar;21,845</td>
-        <td>&dollar;29,265</td>
-        <td>&dollar;32,621</td>
-        <td>66.97&percnt;</td>
-      </tr>
-      <tr>
-        <th scope="row">2018 Per Capita Personal Income &lpar;BEA&rpar;</th>
-        <td>&dollar;30,948</td>
-        <td>&dollar;44,329</td>
-        <td>&dollar;54,446</td>
-        <td>56.84&percnt;</td>
-      </tr>
-    </table>
-    <hr>
-    <br>
-    <div class="container-fluid"></div>
-    <h3>Mohave County Economic Distress Criteria <small>Primary Elements</small></h3>
-    <p>Report Date&colon; 9&sol;13&sol;2020</p>
+        <tr>
+          <td>&nbsp;</td>
+          <th scope="col">Region</th>
+          <th scope="col">AZ</th>
+          <th scope="col">US</th>
+          <th scope="col">Threshold Calculations</th>
+        </tr>
+        <tr>
+          <th scope="row">24-month Average Unemployment Rate (BLS) period ending July 2020</th>
+          <td>12.25%</td>
+          <td>5.76&%</td>
+          <td>5.12%</td>
+          <td>7.1%</td>
+        </tr>
+        <tr>
+          <th scope="row">2018 Per Capita Money Income (5-year ACS)</th>
+          <td>$22,941</td>
+          <td>$29,265</td>
+          <td>$32,621</td>
+          <td>70.33%</td>
+        </tr>
+        <tr>
+          <th scope="row">2018 Per Capita Personal Income (BEA)</th>
+          <td>$34,257</td>
+          <td>$44,329</td>
+          <td>$54,446</td>
+          <td>62.92%</td>
+        </tr>
+      </table>
+      <hr>
+      <div class="container-fluid"></div>
+      <h3>La Paz County Economic Distress Criteria </h3>
+      <p>Report Date: 9/132020</p>
+      <table>
+        <tr>
+          <td>&nbsp;</td>
+          <th scope="col">La Paz County</th>
+          <th scope="col">AZ</th>
+          <th scope="col">US</th>
+          <th scope="col">Threshold Calculations</th>
+        </tr>
+        <tr>
+          <th scope="row">24-month Average Unemployment Rate (BLS) period ending July 2020</th>
+          <td>6.26%</td>
+          <td>5.76%</td>
+          <td>5.12%</td>
+          <td>1.14%</td>
+        </tr>
+        <tr>
+          <th scope="row">2018 Per Capita Money Income (5-year ACS)</th>
+          <td>$21,845</td>
+          <td>$29,265</td>
+          <td>$32,621</td>
+          <td>66.97%</td>
+        </tr>
+        <tr>
+          <th scope="row">2018 Per Capita Personal Income (BEA)</th>
+          <td>$30,948</td>
+          <td>$44,329</td>
+          <td>$54,446</td>
+          <td>56.84%</td>
+        </tr>
+      </table>
+<hr>
+<h3>Mohave County Economic Distress Criteria </h3>
+    <p>Report Date: 9/13/2020</p>
     <table>
       <tr>
         <td>&nbsp;</td>
@@ -180,32 +213,30 @@
         <th scope="col">Threshold Calculations</th>
       </tr>
       <tr>
-        <th scope="row">24&#45;month Average Unemployment Rate &lpar;BLS&rpar; period ending July 2020</th>
-        <td>7.22&percnt;</td>
-        <td>5.76&percnt;</td>
-        <td>5.12&percnt;</td>
-        <td>2.1&percnt;</td>
+        <th scope="row">24-month Average Unemployment Rate (BLS) period ending July 2020</th>
+        <td>7.22%</td>
+        <td>5.76%</td>
+        <td>5.12%</td>
+        <td>2.1%</td>
       </tr>
       <tr>
-        <th scope="row">2018 Per Capita Money Income &lpar;5&#45;year ACS&rpar;</th>
-        <td>&dollar;24,829</td>
-        <td>&dollar;29,265</td>
-        <td>&dollar;32,621</td>
-        <td>76.11&percnt;</td>
+        <th scope="row">2018 Per Capita Money Income (5-year ACS)</th>
+        <td>$24,829</td>
+        <td>$29,265</td>
+        <td>$32,621</td>
+        <td>76.11%</td>
       </tr>
       <tr>
-        <th scope="row">2018 Per Capita Personal Income &lpar;BEA&rpar;</th>
-        <td>&dollar;34,257</td>
-        <td>&dollar;44,329</td>
-        <td>&dollar;54,446</td>
-        <td>62.92&percnt;</td>
+        <th scope="row">2018 Per Capita Personal Income (BEA)</th>
+        <td>$34,257</td>
+        <td>$44,329</td>
+        <td>$54,446</td>
+        <td>62.92%</td>
       </tr>
     </table>
-    <hr>
-    <br>
-    <div class="container-fluid"></div>
-    <h3>Yuma County Economic Distress Criteria <small>Primary Elements</small></h3>
-    <p>Report Date&colon; 9&sol;13&sol;2020</p>
+<hr>
+<h3>Yuma County Economic Distress Criteria</h3>
+    <p>Report Date: 9/13/2020</p>
     <table>
       <tr>
         <td>&nbsp;</td>
@@ -215,46 +246,50 @@
         <th scope="col">Threshold Calculations</th>
       </tr>
       <tr>
-        <th scope="row">24&#45;month Average Unemployment Rate &lpar;BLS&rpar; period ending July 2020</th>
-        <td>17.24&percnt;</td>
-        <td>5.76&percnt;</td>
-        <td>5.12&percnt;</td>
-        <td>12.12&percnt;</td>
+        <th scope="row">24-month Average Unemployment Rate (BLS) period ending July 2020</th>
+        <td>17.24%</td>
+        <td>5.76%</td>
+        <td>5.12%</td>
+        <td>12.12%</td>
       </tr>
       <tr>
-        <th scope="row">2018 Per Capita Money Income &lpar;5-year ACS&rpar;</th>
-        <td>&dollar;21,178</td>
-        <td>&dollar;29,265</td>
-        <td>&dollar;32,621</td>
-        <td>64.92&percnt;</td>
+        <th scope="row">2018 Per Capita Money Income (5-year ACS)</th>
+        <td>$21,178</td>
+        <td>$29,265</td>
+        <td>$32,621</td>
+        <td>64.92%</td>
       </tr>
       <tr>
-        <th scope="row">2018 Per Capita Personal Income &lpar;BEA&rpar;</th>
-        <td>&dollar;35,682</td>
-        <td>&dollar;44,329</td>
-        <td>&dollar;54,446</td>
-        <td>65.54&percnt;</td>
+        <th scope="row">2018 Per Capita Personal Income (BEA)</th>
+        <td>$35,682</td>
+        <td>$44,329</td>
+        <td>$54,446</td>
+        <td>65.54%</td>
       </tr>
     </table>
-    <footer>
-      Sources&colon; U&period;S&period; Bureaus of Census&comma; Labor Statistics&comma; and Economic Analysis&semi; Calculations generated by StatsAmerica&period;
-    </footer>
-    <div class="container-fluid"></div><br>
-    <hr>
-    <h6>Footnote:</h6>
-    <p>Economic development districts are designated in regions where the 24&#45;month unemployment rate or the per capita income is less than 80&percnt; of the national average&period;</p>
-    <p><strong><em>Thus&comma; the District has the paradoxical mission of working itself out of a job by leveraging regional&comma; state&comma; and national partnerships to grow the number and diversity of employers who can create and grow quality
-    jobs&period; We&apos;re not there yet&comma; but with your help&comma; we can get there&excl;</em></strong></p>
-    <address>
-      <p class="font-italic">&quot;We build connections with the people and communities in La Paz&comma; Mohave&comma; and Yuma counties&period;&quot;</p><br>
-    </address><a class="twitter-follow-button"
-         data-show-count="false"
-         href="https://twitter.com/westernazedd?ref_src=twsrc%5Etfw">Follow &commat;westernazedd</a> 
-    <script async
-         src="https://platform.twitter.com/widgets.js"></script>
-    <footer>
-      &copy; 2000-2020 waedd.org
-    </footer>
-  </div>
+    <h6>
+        <strong>Sources: U.S. Bureaus of Census, Labor Statistics, and Economic Analysis; Calculations generated by StatsAmerica.</strong>
+      </h6>
+<hr>
+<h6>Footnote:</h6>
+    <p>
+        Economic development districts are designated in regions where the 24-month unemployment rate or the per capita income is less than 80% of the national average.
+    </p>
+    <p>
+        <strong><em>Thus, the District has the paradoxical mission of working itself out of a job by leveraging regional, state, and national partnerships to grow the number and diversity of employers who can create and grow quality jobs. We are not there yet, but with your help, we can get there!</em></strong>
+</p>
+
+</article>
+</div>
+<br>
+<br>
+<br>
+<div class="footer">
+  <footer>
+    &copy; 2000-2020 | <em>"We build connections with the people and communities in La Paz, Mohave, and Yuma counties."</em>
+</footer>
+</div>
+<!--<script async
+  src=""></script>-->
 </body>
 </html>
