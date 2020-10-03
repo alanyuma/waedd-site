@@ -26,62 +26,13 @@
   rel="icon"
   type="img/favicon">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="apple-touch-icon" sizes="60x60" href="somedir/apple-touch-icon-ipad-76x76.png">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-    address {
-      display: block;
-      font-style: italic;
-      margin-left: 10px;
-    }
-    .responsive {
-        width: 100%;
-        height: auto;
-    }
-    @media (min-width: 575px) {
-    article {
-        width: 550px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: left;
-        }
-    }
-    .footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: blue;
-        color: white;
-        text-align: center;
-    }
-    p + p {
-        margin-top: 8px;
-    }
-    th {
-      text-align:  left;
-    }
-
-    tfoot {
-        font-weight: bold;
-        }
-
-    caption {
-        text-align:  left;;
-    }
-
-    td, th {
-        border: 1px solid #dddddd7a;
-        text-align: left;
-        padding: 8px;
-    }
-
-    tr:nth-child(even) {
-        background-color:  #dddddd;
-    }
-</style>
+<link rel="apple-touch-icon" sizes="60x60" href="img/touch-icons/apple-touch-icon-ipad-76x76.png">
+<link rel="stylesheet" type="text/css" href="css/waedd.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style></style>
 </head>
 <body>
 <nav class="navbar navbar-inverse">
@@ -100,43 +51,28 @@
         <li><a href="about.html">About</a></li>
         <li><a href="board.html">Board</a></li>
         <li><a href="ceds.html">CEDS</a></li>
-
-        <!--<li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">CEDS <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">CEDS 1.0</a></li>
-            <li><a href="#">CEDS 2.0</a></li>
-            <li><a href="#">CEDS 3.0</a></li>
-            <li><a href="#">CEDS 4.0</a></li>
-            <li><a href="#">CEDS 5.0</a></li>
-            <li><a href="#">CEDS 6.0</a></li>
-          </ul>
-        </li>-->
-
         <li><a href="contact.html">Contact</a></li>
         <li><a href="distress.html">Distress</a></li>
         <li><a href="files.html">Files</a></li>
+        <li><a href="meetings.html">Meetings</a></li>
         <li><a href="partners.html">Partners</a></li>
+        <li><a href="projects.html">Projects</a></li>
         <li><a href="sitemap.html">Sitemap</a></li>
       </ul>
     </div>
   </div>
 </nav>
-<img src="img/webp/waedd-logo.webp" alt="western arizona economic development district logo" class="responsive" width="600" height="400">
+<picture>
+  <source srcset="img/png/waedd-logo.png" alt="western arizona economic development district logo" class="responsive" width="600" height="400">
+  <img src="img/webp/waedd-logo.webp" alt="western arizona economic development district logo" class="responsive" width="600" height="400">
+</picture>
 <div class="container-fluid">
   <article role="main">
-    <h1>Regional Economic Distress Criteria</h1>
-    
-    <h5><a href="https://twitter.com/statsamerica">@StatsAmerica</a> uses data tools to benchmark economic distress and quickly calculate whether our region may meet grant thresholds for unemployment and income.</h5>
-   
+    <h1 class="heading1">Regional Economic Distress Criteria <small>Report Date: 9/13/2020</small></h1>
     <p>
-        Reference Date: 07/2020 (All data elements refer to this date or earlier)
-    </p>
-    <p>
-        Region Consists of: La Paz Co. AZ, Mohave Co. AZ, Yuma Co. AZ</p>
-    <p>
-        Report Date: 9/13/2020
-    </p>
+      <a href="https://twitter.com/statsamerica">@StatsAmerica</a> uses data tools to benchmark economic distress and quickly calculate whether our region may meet grant thresholds for unemployment and income.</p>
+    <h6 color="black">Reference Date: 07/2020 (All data elements refer to this date or earlier)</h6>
+    <h6 class="heading6">Region Consists of: La Paz Co. AZ, Mohave Co. AZ, & Yuma Co. AZ</h6>
     <table>
         <tr>
           <td>&nbsp;</td>
@@ -169,12 +105,11 @@
       </table>
       <hr>
       <div class="container-fluid"></div>
-      <h3>La Paz County Economic Distress Criteria </h3>
-      <p>Report Date: 9/132020</p>
+      <h3 class="heading3">La Paz County Economic Distress Criteria <small>Report Date: 9/13/2020</small></h3>
       <table>
         <tr>
           <td>&nbsp;</td>
-          <th scope="col">La Paz County</th>
+          <th scope="col">La Paz Co.</th>
           <th scope="col">AZ</th>
           <th scope="col">US</th>
           <th scope="col">Threshold Calculations</th>
@@ -202,12 +137,11 @@
         </tr>
       </table>
 <hr>
-<h3>Mohave County Economic Distress Criteria </h3>
-    <p>Report Date: 9/13/2020</p>
+<h3 class="heading3">Mohave County Economic Distress Criteria <small>Report Date: 9/13/2020</small></h3>
     <table>
       <tr>
         <td>&nbsp;</td>
-        <th scope="col">Mohave County</th>
+        <th scope="col">Mohave Co.</th>
         <th scope="col">AZ</th>
         <th scope="col">US</th>
         <th scope="col">Threshold Calculations</th>
@@ -235,12 +169,11 @@
       </tr>
     </table>
 <hr>
-<h3>Yuma County Economic Distress Criteria</h3>
-    <p>Report Date: 9/13/2020</p>
+<h3 class="heading3">Yuma County Economic Distress Criteria <small>Report Date: 9/13/2020</small></h3>
     <table>
       <tr>
         <td>&nbsp;</td>
-        <th scope="col">Yuma County</th>
+        <th scope="col">Yuma Co.</th>
         <th scope="col">AZ</th>
         <th scope="col">US</th>
         <th scope="col">Threshold Calculations</th>
@@ -271,14 +204,13 @@
         <strong>Sources: U.S. Bureaus of Census, Labor Statistics, and Economic Analysis; Calculations generated by StatsAmerica.</strong>
       </h6>
 <hr>
-<h6>Footnote:</h6>
+<h6 class="heading6">Footnote:</h6>
     <p>
         Economic development districts are designated in regions where the 24-month unemployment rate or the per capita income is less than 80% of the national average.
     </p>
     <p>
         <strong><em>Thus, the District has the paradoxical mission of working itself out of a job by leveraging regional, state, and national partnerships to grow the number and diversity of employers who can create and grow quality jobs. We are not there yet, but with your help, we can get there!</em></strong>
 </p>
-
 </article>
 </div>
 <br>

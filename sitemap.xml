@@ -9,63 +9,138 @@
 
 <url>
   <loc>https://www.waedd.org/</loc>
-  <lastmod>2020-09-20T16:24:04+00:00</lastmod>
+  <lastmod>2020-09-28T18:47:41+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.waedd.org/index.html</loc>
-  <lastmod>2020-09-20T16:24:04+00:00</lastmod>
+  <lastmod>2020-09-28T18:47:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.waedd.org/about.html</loc>
-  <lastmod>2020-09-20T16:24:09+00:00</lastmod>
+  <lastmod>2020-09-27T22:16:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.waedd.org/board.html</loc>
-  <lastmod>2020-09-20T16:24:14+00:00</lastmod>
+  <lastmod>2020-09-27T22:18:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.waedd.org/ceds.html</loc>
-  <lastmod>2020-09-20T18:19:16+00:00</lastmod>
+  <lastmod>2020-09-28T19:01:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.waedd.org/contact.html</loc>
-  <lastmod>2020-09-20T16:43:03+00:00</lastmod>
+  <lastmod>2020-09-27T22:21:09+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.waedd.org/distress.html</loc>
-  <lastmod>2020-09-20T17:20:39+00:00</lastmod>
+  <lastmod>2020-09-27T00:24:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.waedd.org/files.html</loc>
-  <lastmod>2020-09-20T17:28:10+00:00</lastmod>
+  <lastmod>2020-09-27T00:25:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/meetings.html</loc>
+  <lastmod>2020-09-27T23:28:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.waedd.org/partners.html</loc>
-  <lastmod>2020-09-20T17:38:02+00:00</lastmod>
+  <lastmod>2020-09-28T15:42:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/projects.html</loc>
+  <lastmod>2020-09-28T16:15:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.waedd.org/sitemap.html</loc>
-  <lastmod>2020-09-20T17:43:54+00:00</lastmod>
+  <lastmod>2020-09-27T22:38:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.waedd.org/ceds1.html</loc>
-  <lastmod>2020-09-20T16:24:28+00:00</lastmod>
+  <lastmod>2020-09-28T22:21:28+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.waedd.org/ceds2.html</loc>
-  <lastmod>2020-09-20T19:14:13+00:00</lastmod>
+  <lastmod>2020-09-28T22:24:57+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/ceds3.html</loc>
+  <lastmod>2020-09-27T23:00:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/ceds4.html</loc>
+  <lastmod>2020-09-27T23:00:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/ceds5.html</loc>
+  <lastmod>2020-09-27T23:02:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/ceds6.html</loc>
+  <lastmod>2020-09-27T23:04:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/ceds7.html</loc>
+  <lastmod>2020-09-27T23:06:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/ceds8.html</loc>
+  <lastmod>2020-09-27T23:08:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/ceds9.html</loc>
+  <lastmod>2020-09-27T23:10:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/ceds10.html</loc>
+  <lastmod>2020-09-27T23:12:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/ceds11.html</loc>
+  <lastmod>2020-09-27T23:13:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/ceds12.html</loc>
+  <lastmod>2020-09-27T23:15:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/ceds13.html</loc>
+  <lastmod>2020-09-27T23:16:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/ceds14.html</loc>
+  <lastmod>2020-09-27T23:17:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.waedd.org/cpro1.html</loc>
+  <lastmod>2020-09-27T23:38:46+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
